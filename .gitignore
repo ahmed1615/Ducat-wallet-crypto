@@ -3,7 +3,19 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-/.env
+.env
+.env.*
 /palert.yaml
 /Reports
 /test-user-data
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock file (using yarn, so ignore npm lock)
+package-lock.json
+
+# Reports/artifacts
+reports/
+vault_results.txt
